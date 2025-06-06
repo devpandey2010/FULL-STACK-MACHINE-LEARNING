@@ -43,8 +43,8 @@ def predict():
         raise CustomException(e,sys)
 
 if __name__=="__main__":
-    host="127.0.0.1"
-    port=5010
+    host="0.0.0.0"
+    port=int(os.environ.get("PORT",5000))
     print(f"App running on:http://{host}:{port}")
     app.run(host=host,port=port,debug=True)
         
