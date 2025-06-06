@@ -1,6 +1,5 @@
 aiofiles
 certifi
-gunicorn
 dill==0.3.5.1
 dnspython==2.2.1
 database-connect==0.1.66
@@ -12,7 +11,7 @@ matplotlib==3.7.1
 mypy-boto3-s3==1.24.76
 Werkzeug==2.0.3
 pip-chill==1.0.1
-pymongo==4.2.0
+pymongo[srv]>=4.3.3 
 python-dotenv==0.21.0
 python-multipart==0.0.6
 seaborn==0.12.2
