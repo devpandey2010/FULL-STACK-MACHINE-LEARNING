@@ -79,7 +79,7 @@
 #              #access the dataframe
 #              dataframe=self.get_merged_batch_data(valid_data_dir=self.valid_data_dir)
 #              dataframe=self.utils.remove_unwanted_spaces(dataframe)
-#              dataframe.replace('?',np.NaN,inplace=True)  # replacing '?' with NaN values for imputation
+#              dataframe.replace('?',np.nan,inplace=True)  # replacing '?' with NaN values for imputation
 
 #              x=dataframe.drop(TARGET_COLUMN,axis=1)
 #              y = np.where(dataframe[TARGET_COLUMN] == -1, 0, 1)  # replacing the values of the target column
