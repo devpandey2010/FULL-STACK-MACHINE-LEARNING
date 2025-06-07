@@ -162,16 +162,74 @@ python app.py
 
 ## ✅ Conclusion
 
-The **Phishing Classifier** successfully demonstrates how Machine Learning can be used to combat real-world cyber threats like phishing. With a robust backend pipeline, clean frontend UI, Dockerization, and cloud deployment, this project showcases both technical depth and practical application.
+Phishing attacks are a growing cybersecurity threat.
+Cybercriminals use deceptive websites to steal sensitive information.
+Traditional blacklist-based methods fail to detect new phishing attacks effectively.
 
-It not only solves the problem of detecting phishing sites with high accuracy, but is also architected in a modular and scalable fashion, making it ready for production-grade use.
+Machine Learning provides an efficient solution.
+By analyzing various features (URL-based, domain-based, and content-based), we can classify websites as phishing or legitimate.
+Our trained model helps in automating phishing detection and improving security.
+
+Results show that ML models can detect phishing websites with high accuracy.
+Random Forest and XGBoost performed well.
+Metrics such as accuracy, precision, recall, and F1-score indicate model reliability.
+
+
 
 ---
 
 ## 🚀 Future Improvement
+🔹 1. Real-time Phishing Detection
+Currently, the model works on pre-collected datasets.
+Future versions can integrate live URL scanning to detect phishing websites in real-time.
+Implementation: Use API-based lookups for website verification.
 
-* Enhance frontend with React or Tailwind CSS
-* Add alert/notification system on detection
+🔹 2. Deep Learning for Enhanced Accuracy
+Neural networks (LSTMs, CNNs) can be used for phishing detection based on URL patterns and webpage content.
+Why? Deep learning can capture hidden patterns better than traditional ML models.
+
+🔹 3. Browser Extension for Phishing Prevention
+Develop a Google Chrome or Firefox extension that warns users when they visit a phishing site.
+The extension can interact with the ML model via an API to analyze URLs dynamically.
+
+🔹 4. Expanding Features for Better Detection
+Add Natural Language Processing (NLP) to analyze webpage text for phishing indicators.
+Example: Many phishing pages contain urgent language like “Your account will be blocked soon! Click here now!”
+
+🔹 5. Integration with Cybersecurity Systems
+Collaborate with email security solutions to flag phishing links in emails.
+Build an AI-powered firewall that blocks phishing domains automatically.
+
+🔹 6. Improving Dataset Quality
+Collect real-world phishing websites and continuously update the dataset.
+Implement web scrapers to gather fresh phishing examples from cybersecurity sources.
+
+
+---
+## Flow of the Project Demo
+ Introduction
+ 
+Environment Setup
+
+Dataset Exploration
+
+Data Preprocessing
+
+Feature Engineering
+
+Model Training & Evaluation
+
+FastAPI Deployment
+
+Docker
+
+Cloud Deployment
+
+CI/CD with GitHub Actions
+
+Terraform Infrastructure
+
+Final Wrap-Up
 
 ---
 
