@@ -48,7 +48,7 @@ Phishing attacks are a major cybersecurity threat, often leading to identity the
 
 ---
 
-## 🧱 Project Structure
+##  Project Structure
 
 ```
 phishing-classifier/
@@ -108,7 +108,7 @@ phishing-classifier/
 
 ---
 
-## 📊 Visuals (Optional: Add Images to GitHub)
+## 📊 Visuals
 
 * EDA Visualizations
 * HTML Frontend Screenshot
